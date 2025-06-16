@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: momo-spring-v1
+momo:
+  config:
+    partner-code: MOMO
+    access-key: F8BBA842ECF85
+    secret-key: K951B6PE1waDMi640xX08PD3vg6EkVlz
+    request-type: payWithMethod
+    create-endpoint: https://test-payment.momo.vn/v2/gateway/api/create
+    query-endpoint: https://test-payment.momo.vn/v2/gateway/api/query
+    refund-endpoint: https://test-payment.momo.vn/v2/gateway/api/refund
+    query-refund-endpoint: https://test-payment.momo.vn/v2/gateway/api/refund/query
+    redirect-url: https://momo.vn/return
+    call-back: https://webhook.site/3756d88d-e6c2-49a3-9215-15b578f6ae46
